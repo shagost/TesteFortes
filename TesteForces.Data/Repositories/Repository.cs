@@ -95,7 +95,7 @@ namespace TesteFortes.Data.Repositories
             var entry = _context.Entry(model);
             DbSet.Attach(model);
             entry.State = EntityState.Modified;
-            return Save() > 0;
+            return Save() > 0; 
         }
 
         public async Task<int> SaveAsync()
