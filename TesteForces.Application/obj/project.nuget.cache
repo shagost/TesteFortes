@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "uLymtk1Ey8eMPPXQnwGKzuYuhW5hUb0psJpRwYWhWL1vsV71tGdrkU3F+DULd2Fr6Fi7DjRHKSZJa/NUoNIOEw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteForces.Application\\TesteFortes.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shago\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\microsoft.extensions.options.6.0.0.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\microsoft.extensions.primitives.6.0.0.nupkg.sha512",
+    "C:\\Users\\shago\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

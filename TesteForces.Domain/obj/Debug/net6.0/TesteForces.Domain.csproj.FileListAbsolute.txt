@@ -1,0 +1,12 @@
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\bin\Debug\net6.0\TesteForces.Domain.deps.json
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\bin\Debug\net6.0\TesteForces.Domain.dll
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\bin\Debug\net6.0\TesteForces.Domain.pdb
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.csproj.AssemblyReference.cache
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.AssemblyInfoInputs.cache
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.AssemblyInfo.cs
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.csproj.CoreCompileInputs.cache
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.dll
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\refint\TesteForces.Domain.dll
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\TesteForces.Domain.pdb
+C:\Users\shago\source\repos\TesteFortes\TesteForces.Domain\obj\Debug\net6.0\ref\TesteForces.Domain.dll

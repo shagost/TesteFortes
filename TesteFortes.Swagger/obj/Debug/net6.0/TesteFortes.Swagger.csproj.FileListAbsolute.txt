@@ -1,0 +1,12 @@
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\bin\Debug\net6.0\TesteFortes.Swagger.deps.json
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\bin\Debug\net6.0\TesteFortes.Swagger.dll
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\bin\Debug\net6.0\TesteFortes.Swagger.pdb
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.csproj.AssemblyReference.cache
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.AssemblyInfoInputs.cache
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.AssemblyInfo.cs
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.csproj.CoreCompileInputs.cache
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.dll
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\refint\TesteFortes.Swagger.dll
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\TesteFortes.Swagger.pdb
+C:\Users\shago\source\repos\TesteFortes\TesteFortes.Swagger\obj\Debug\net6.0\ref\TesteFortes.Swagger.dll

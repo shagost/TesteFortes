@@ -1,0 +1,98 @@
+<button class="btn-primary" (click)="showlist = !showlist">{{showlist ? 'Novo pedido' : 'Lista de pedidos'}}</button>
+
+<div *ngIf="showlist && !includeItem">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Actions</th>
+                <th scope="col">ID</th>
+                <th scope="col">Código</th>
+                <th scope="col">Data</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let pedido of pedidos">
+                <td scope="row">
+                    <button class="btn-primary" (click)="openDetails(pedido)">Itens</button>
+                    <!-- <button class="btn-primary" (click)="openDetails(pedido)">Editar</button> -->
+                </td>
+                <td>{{pedido.pedidoId}}</td>
+                <td>{{pedido.codigo}}</td>
+                <td>{{pedido.dataPedido | date: 'dd/MM/yyyy'}}</td>
+                <td>{{pedido.valorTotal}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+
+
+<div *ngIf="!showlist && !includeItem">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Código:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                    placeholder="Código" [(ngModel)]="pedido.codigo" name="codigo">
+        </div>
+
+        <div class="mb-5">
+            <select class="form-select" [(ngModel)]="pedido.fornecedorId" name="fornecedorId">
+                <option value="null" disabled>Selecione o fornecedor</option>
+                <option *ngFor="let f of fornecedores" value={{f.fornecedorId}}>{{f.razaoSocial}}</option>
+            </select>
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="post()">Enviar</button>
+    </form>
+</div>
+
+<div *ngIf="includeItem">
+    <form>
+        <div class="mb-5">
+            <select class="form-select" [(ngModel)]="produto.produtoId" name="produtoId">
+                <option value="null" disabled>Selecione o produto</option>
+                <option *ngFor="let p of produtos" value={{p.produtoId}}>{{p.descricao}}</option>
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Quantidade:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                    placeholder="Quantidade" [(ngModel)]="produto.quantidade" name="quantidade">
+        </div>
+
+        <button type="submit" class="btn btn-primary" (click)="incluirItem(produto)">Incluir item</button>
+    </form>
+</div>
+
+<div *ngIf="!showlist">
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Actions</th>
+                <th scope="col">ID</th>
+                <th scope="col">Código</th>
+                <th scope="col">Descrição</th>
+                <th scope="col">Quantidade</th>
+                <th scope="col">Vr. Unitário</th>
+                <th scope="col">Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let i of itens">
+                <td scope="row">
+                    <button class="btn-primary" (click)="openDetails(pedido)">Editar</button>
+                    <!-- <button class="btn-primary" (click)="openDetails(pedido)">Editar</button> -->
+                </td>
+                <td>{{i.produto.produtoId}}</td>
+                <td>{{i.produto.codigo}}</td>
+                <td>{{i.produto.descricao}}</td>
+                <td>{{i.quantidade}}</td>
+                <td>{{i.valorUnitario}}</td>
+                <td>{{i.valorTotal}}</td>
+            </tr>
+        </tbody>
+    </table>
+
+</div>

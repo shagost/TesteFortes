@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "HEGGC2Wj0Xe1t4LVFEX30JTNzxcL84TSSUqJDXx+dmI=",
+  "Source": "TesteFortes",
+  "BasePath": "_content/TesteFortes",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "TesteFortes\\wwwroot",
+      "Source": "TesteFortes",
+      "ContentRoot": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteFortes\\wwwroot\\",
+      "BasePath": "_content/TesteFortes",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteFortes\\wwwroot\\api-doc.xml",
+      "SourceId": "TesteFortes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteFortes\\wwwroot\\",
+      "BasePath": "_content/TesteFortes",
+      "RelativePath": "api-doc.xml",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\api-doc.xml"
+    },
+    {
+      "Identity": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteFortes\\wwwroot\\favicon.ico",
+      "SourceId": "TesteFortes",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\shago\\source\\repos\\TesteFortes\\TesteFortes\\wwwroot\\",
+      "BasePath": "_content/TesteFortes",
+      "RelativePath": "favicon.ico",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\favicon.ico"
+    }
+  ]
+}
