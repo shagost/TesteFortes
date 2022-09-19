@@ -1,0 +1,33 @@
+<button class="btn-primary" (click)="showlist = !showlist">{{showlist ? 'Novo usuário' : 'Lista de usuários'}}</button>
+<p>Users ({{users?.length}})</p>
+
+<div *ngIf="showlist">
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Actions</th>
+                <th scope="col">ID</th>
+                <th scope="col">Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let user of users">
+                <td scope="row"><button class="btn-primary" (click)="openDetails(user)">Editar</button></td>
+                <td scope="row">{{user.userId}}</td>
+                <td>{{user.name}}</td>
+            </tr>
+
+        </tbody>
+    </table>
+</div>
+
+<div *ngIf="!showlist">
+    <form>
+        <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Nome:</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" 
+                    placeholder="Nome" [(ngModel)]="user.name" name="name">
+        </div>
+        <button type="submit" class="btn btn-primary" (click)="save()">Enviar</button>
+    </form>
+</div>
